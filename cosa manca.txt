@@ -1,0 +1,25 @@
+D. cancellazione di uno o più record (DELETE) [Federico]
+	creare un metodo in grado di leggere la query con DELETE e eliminare quello richiesto dal db (usare il metodo records_where)
+	creare un metodo che svuota l'intera tabella (TRUNCATE)
+E. aggiornamento di uno o più record (UPDATE) [Miriana]
+	-metodo sviluppato da finire e controllare che funzioni 
+F. stampa a video il contenuto della tabella (tramite selezione) [Walter]
+	creare metodo che stampi ciò richiesto dalla SELECT, include ordinamento (punto G)
+	aggiungere punto C(richieste aggiuntive per gruppi) - alias (AS) e concatenamento tabelle
+H. collegamento di diverse tabelle attraverso le chiavi esterne (controllare su pdf) [Federico]
+
+sul faq il prof parla di questo
+FOREIGN KEY (NAME_EUROPE) REFERENCES EUROPE (EUROPIAN_COUNTRIES),
+FOREIGN KEY (NAME_AMERICAN) REFERENCES AMERICA (AMERICAN_COUNTRIES),
+
+
+RICHIESTE AGGIUNTIVE PER GRUPPI
+A-B. Operatori - controllare e finire metodo records_where (table) [Miriana]
+
+ISTRUZIONI DI CONSEGNA
+ - leggere i file dalla cartella input
+ - mettere nella cartella file input utili
+ - doc.pdf relazione dettagliata
+	- struttura del programma [Miriana]
+	- algoritmi e strutture dati utilizzate [Miriana]
+	- analisi dettagliata della compessità di tutti gi algoritmi sviluppati [Federico e Walter]

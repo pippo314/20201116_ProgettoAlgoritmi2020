@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ProgettoAlgoritmi2020" targetName="ProgettoAlgoritmi2020" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c878d258-9227-4ebe-937d-afa5709b3e77" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1faBwW8WolhDaLFHckxk8eTXDZn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ProgettoAlgoritmi2020\input" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProgettoAlgoritmi2020" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProgettoAlgoritmi2020" TARGET_NAME="ProgettoAlgoritmi2020" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProgettoAlgoritmi2020" RUN_TARGET_NAME="ProgettoAlgoritmi2020">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c878d258-9227-4ebe-937d-afa5709b3e77" name="Default Changelist" comment="" />
+      <created>1596446561626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596446561626</updated>
+      <workItem from="1596446563038" duration="2596000" />
+      <workItem from="1597156915760" duration="7041000" />
+      <workItem from="1597216718087" duration="2988000" />
+      <workItem from="1597329608386" duration="5591000" />
+      <workItem from="1597336339568" duration="659000" />
+      <workItem from="1597913452655" duration="10148000" />
+      <workItem from="1598018859839" duration="2653000" />
+      <workItem from="1598026302987" duration="63000" />
+      <workItem from="1598170918216" duration="2449000" />
+      <workItem from="1598275649628" duration="15757000" />
+      <workItem from="1598455190446" duration="6502000" />
+      <workItem from="1598555762896" duration="3602000" />
+      <workItem from="1598631440331" duration="4630000" />
+      <workItem from="1598720012466" duration="21587000" />
+      <workItem from="1598986310741" duration="3212000" />
+      <workItem from="1599056135879" duration="11867000" />
+      <workItem from="1599141326944" duration="13135000" />
+      <workItem from="1599234397287" duration="4267000" />
+      <workItem from="1599238857226" duration="2014000" />
+      <workItem from="1599241190688" duration="5874000" />
+      <workItem from="1599322745940" duration="12159000" />
+      <workItem from="1601022493452" duration="2752000" />
+      <workItem from="1601277577143" duration="5474000" />
+      <workItem from="1601304413602" duration="1923000" />
+      <workItem from="1603364992624" duration="110000" />
+      <workItem from="1603380770610" duration="1666000" />
+      <workItem from="1603877168119" duration="4569000" />
+      <workItem from="1604847845047" duration="4674000" />
+      <workItem from="1605454579606" duration="1186000" />
+      <workItem from="1605455884261" duration="39000" />
+      <workItem from="1605455960040" duration="28000" />
+      <workItem from="1605456050499" duration="69000" />
+      <workItem from="1605456317340" duration="15000" />
+      <workItem from="1605456415398" duration="3138000" />
+      <workItem from="1605459590874" duration="161000" />
+      <workItem from="1605459879701" duration="16000" />
+      <workItem from="1605542173458" duration="1987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598558660493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598558660493" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605459894073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605459894073" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605543353697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605543353697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605543353697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605543353697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598908432672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598908432672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598908432669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598908432669" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598908432672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605542175220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605542175220" />
+    <state x="596" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1599327561057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="596" y="58" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1599327561057" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598635723823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598635723823" />
+  </component>
+</project>
