@@ -37,6 +37,8 @@ public:
     bool insert_values(vector<string> query);   //inserisce i valori in tabella data la query
     bool update(vector<string> query);  //aggiorna i valori in tabella data la query
     string print_DB();
+    void select(vector<string> query);
+    Table getTable(string name);
 };
 
 

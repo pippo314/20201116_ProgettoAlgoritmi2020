@@ -41,6 +41,7 @@ public:
     map<string, int> getWhereMap(); //operatori della where
     void set_w(bool *_and, vector<bool> ret, int r);    //serve alla where
     float stof(string basicString); //converte string a float
+    int Table::get_field_index(string name);
 };
 
 
