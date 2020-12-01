@@ -8,6 +8,8 @@
 #include <algorithm>
 
 using namespace std;
+map<string, vector<string>> mapQuery(vector<string> query, map<string, string> alias_map);
+
 
 /******************************************************************************
 * Function:         void select
@@ -22,7 +24,8 @@ void Database::select(vector<string> query){
   Table t; //tabella temporanea su cui operare
   Table result = new Table(); //tabella finale da stampare
   vector<bool> where_lines; //righe della tabella dove ha effetto la where
-  map<string, vector<string>> query_map = mapQuery(query);
+  map<string, string> alias_map;
+  map<string, vector<string>> query_map = mapQuery(query, alias_map);
   int n_tables = query_map.at("FROM").size();
   vector<string>::iterator i;
   vector<int> fields_indexes;
@@ -79,24 +82,47 @@ void Database::select(vector<string> query){
 
 /******************************************************************************
 * Function:         map<string, vector<string>> mapQuery
-*                   maps a query from a string (TODO or a fstream)
+*                   maps a query from a string 
 * Where:
-*                   vector<string> query - TODO
+*                   vector<string> query
 * Return:           map
 * Error:            
 *****************************************************************************/
-map<string, vector<string>> mapQuery(vector<string> query){
-  //TODO
+map<string, vector<string>> mapQuery(vector<string> query, map<string, string> alias_map){
+  //TODO: check
   map<string, vector<string>> ret;
   vector<string> select;
   vector<string> from;
-
-  //lettura file
-  map.at("SELECT") = select;
-
-  map["SELECT"] = select;
-  map["FROM"] = from;
+  vector<string> where;
+  vector<string> order_by;
+  vector<string>::iterator from_it = find(query.begin(), query.end(), "FROM");
+  vector<string>::iterator where_it = find(query.begin(), query.end(), "WHERE");
+  vector<string>::iterator order_it = find(query.begin(), query.end(), "ORDER BY");
+  vector<string>::iterator it = query.begin() + 1; // esclude la SELECT
+  while(it != from_it){
+          if(*it == "AS"){
+                  alias_map[*(it - 1)] = *(it + 1);
+                  it++;
+          } else {
+                  select.push_back(*it);
+                  it++;
+          }
+  }
+  while(it++ != where_it){
+          from.push_back(*it);
+          it++;
+  }
+  while(it++ != order_it){
+        where.push_back(*it);
+        it++;
+  }
+  while(it++ != query.end()){
+          order_by.push_back(*it);
+          it++;
+  }
+  ret["SELECT"] = select;
+  ret["FROM"] = from;
+  ret["WHERE"] = where;
+  ret["ORDER BY"] = order_by;
   return ret;
-  
-  //leggi il file
 }
