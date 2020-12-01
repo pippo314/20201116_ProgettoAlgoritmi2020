@@ -348,4 +348,13 @@ float Table::stof(string basicString) { //converte la stringa in float
     return ret;
 }
 
+int Table::get_field_index(string name){                                                                                                                                                 
+   int i;
+   for(i = 0; i < this->fields.size(); i++){
+     if( (this->fields.at(i)).name == name)
+       return i;   //ha trovato il campo
+   }
+   return i;   //non ha trovato il campo
+}
+
 
