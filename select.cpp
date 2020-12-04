@@ -24,7 +24,8 @@ void Database::select(vector<string> query){
   Table t; //tabella temporanea su cui operare
   Table result = new Table(); //tabella finale da stampare
   vector<bool> where_lines; //righe della tabella dove ha effetto la where
-  map<string, string> alias_map;
+  vector<int> order_fields; // index of rows sorted as the order by requests
+  map<string, string> alias_map; // tabella corispondenze per alias
   map<string, vector<string>> query_map = mapQuery(query, alias_map);
   int n_tables = query_map.at("FROM").size();
   vector<string>::iterator i;
@@ -46,12 +47,32 @@ void Database::select(vector<string> query){
   }
 
   //check WHERE conditions
-  try {
+  if(query_map.at("WHERE").at(0) != "NONE") {
+          where_lines = t.records_where(query);
+  } else {
+          //niente where nella query
+  }
+  if(query_map.at("ORDER BY").at(0) != "NONE") {
+          order_fields = t.get_order_by_indexes(query_map.at("ORDER BY").at(0), *(query_map.at("ORDER BY").end()));
+  } else {
+          //niente order by nella query
+  }
+          
+
+
+/*  try {
     vector<string> where_condition = query_map.at("WHERE");
     where_lines = t.records_where(query);
-  }catch(const std::out_of_range& oor) { //niente where nella query
+  } catch (const std::out_of_range& oor) { //niente where nella query
     // TODO: assicurarsi che in questo caso la funzione ritorni un vettore tutto true
   }
+
+  try {
+    order_fields = t.get_order_by_indexes(query_map.at("ORDER BY").at(0), *(query_map.at("ORDER BY").end()));
+  } catch (const std::out_of_range& oor) { // no order by nella query
+    // TODO: 
+  }
+*/
 
   //aggiungo gli indici dei fields richiesti dalla select
   for (i = query_map.at("SELECT").begin(); i != query_map.at("SELECT").end(); ++i)
@@ -84,13 +105,13 @@ void Database::select(vector<string> query){
 * Function:         map<string, vector<string>> mapQuery
 *                   maps a query from a string 
 * Where:
-*                   vector<string> query
+*                   vector<string> query - TODO
 * Return:           map
 * Error:            
 *****************************************************************************/
 map<string, vector<string>> mapQuery(vector<string> query, map<string, string> alias_map){
-  //TODO: check
   map<string, vector<string>> ret;
+  vector<string> init = {"NONE"};
   vector<string> select;
   vector<string> from;
   vector<string> where;
@@ -98,31 +119,40 @@ map<string, vector<string>> mapQuery(vector<string> query, map<string, string> a
   vector<string>::iterator from_it = find(query.begin(), query.end(), "FROM");
   vector<string>::iterator where_it = find(query.begin(), query.end(), "WHERE");
   vector<string>::iterator order_it = find(query.begin(), query.end(), "ORDER BY");
-  vector<string>::iterator it = query.begin() + 1; // esclude la SELECT
+  vector<string>::iterator it = query.begin() + 1; // esclude "SELECT"
+
+  // ret vector init
+  ret["SELECT"] = init;
+  ret["FROM"] =  init;
+  ret["WHERE"] = init;
+  ret["ORDER BY"] = init;
+
   while(it != from_it){
           if(*it == "AS"){
                   alias_map[*(it - 1)] = *(it + 1);
-                  it++;
+                  it+=2;
           } else {
                   select.push_back(*it);
                   it++;
           }
   }
-  while(it++ != where_it){
+  while(it != where_it) {
           from.push_back(*it);
           it++;
   }
-  while(it++ != order_it){
-        where.push_back(*it);
-        it++;
+  while(it++ != order_it) {
+          where.push_back(*it);
+          it++;
   }
   while(it++ != query.end()){
           order_by.push_back(*it);
           it++;
   }
+
   ret["SELECT"] = select;
   ret["FROM"] = from;
   ret["WHERE"] = where;
   ret["ORDER BY"] = order_by;
+
   return ret;
 }

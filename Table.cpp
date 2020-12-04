@@ -357,4 +357,11 @@ int Table::get_field_index(string name){
    return i;   //non ha trovato il campo
 }
 
+vector<int> Table::get_order_by_indexes(string field, string mode){
+        vector<int> ret;
+        // TODO: scorre la colonna field in this.records
+        // inserendo in ret gli indici delgi elementi 
+        // nell'ordine desiderato
 
+        return ret;
+}
