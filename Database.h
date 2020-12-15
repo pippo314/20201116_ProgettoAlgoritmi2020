@@ -10,6 +10,14 @@
 #include <cstring>
 #include <utility>
 
+#include <algorithm>
+#include <ctime>
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <sstream>
+#include <string>
+#include <vector>
 #include "Table.h"
 
 using namespace std;

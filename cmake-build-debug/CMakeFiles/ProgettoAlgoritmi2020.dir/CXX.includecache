@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/Database.cpp
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/Database.cpp
 Database.h
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/Database.h
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/Database.h
 
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/Database.h
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/Database.h
 iostream
 -
 vector
@@ -27,10 +27,26 @@ cstring
 -
 utility
 -
+algorithm
+-
+ctime
+-
+iomanip
+-
+iostream
+-
+map
+-
+sstream
+-
+string
+-
+vector
+-
 Table.h
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/Table.h
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/Table.h
 
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/Table.h
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/Table.h
 iostream
 -
 vector

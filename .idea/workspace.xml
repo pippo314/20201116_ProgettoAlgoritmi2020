@@ -11,16 +11,65 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c878d258-9227-4ebe-937d-afa5709b3e77" name="Default Changelist" comment="" />
+    <list default="true" id="c878d258-9227-4ebe-937d-afa5709b3e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_select.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Database.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.h" beforeDir="false" afterPath="$PROJECT_DIR$/Database.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Table.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/Database.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/Table.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProgettoAlgoritmi2020.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProgettoAlgoritmi2020.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/select.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/select.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1faBwW8WolhDaLFHckxk8eTXDZn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,9 +77,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/ProgettoAlgoritmi2020" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
@@ -40,13 +98,23 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ProgettoAlgoritmi2020" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProgettoAlgoritmi2020" TARGET_NAME="ProgettoAlgoritmi2020" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProgettoAlgoritmi2020" RUN_TARGET_NAME="ProgettoAlgoritmi2020">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgettoAlgoritmi2020" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProgettoAlgoritmi2020" TARGET_NAME="ProgettoAlgoritmi2020" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProgettoAlgoritmi2020" RUN_TARGET_NAME="ProgettoAlgoritmi2020">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,68 +162,108 @@
       <workItem from="1605459590874" duration="161000" />
       <workItem from="1605459879701" duration="16000" />
       <workItem from="1605542173458" duration="1987000" />
+      <workItem from="1607516113602" duration="44000" />
+      <workItem from="1607529803478" duration="7585000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598558660493">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="292" y="23" width="801" height="743" key="#C/C++" timestamp="1607536204680">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598558660493" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605459894073">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="292" y="23" width="801" height="743" key="#C/C++/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607536204680" />
+    <state x="156" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607539210748">
+      <screen x="30" y="23" width="1336" height="745" />
+    </state>
+    <state x="156" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607539210748" />
+    <state x="381" y="134" width="624" height="518" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607516133313">
+      <screen x="30" y="23" width="1336" height="745" />
+    </state>
+    <state x="381" y="134" width="624" height="518" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607516133313" />
+    <state x="508" y="174" width="424" height="482" key="FileChooserDialogImpl" timestamp="1607539192830">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605459894073" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605543353697">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="508" y="174" width="424" height="482" key="FileChooserDialogImpl/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607539192830" />
+    <state width="1294" height="282" key="GridCell.Tab.0.bottom" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
     <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605543353697">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.0.bottom/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.0.center" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
     <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605543353697">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.0.center/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.0.left" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
     <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605543353697">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.0.left/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.0.right" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605543353697" />
     <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1605460339693" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598908432672">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.0.right/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.1.bottom" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598908432672">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.1.bottom/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.1.center" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598908432669">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.1.center/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.1.left" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598908432669" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598908432672">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1294" height="282" key="GridCell.Tab.1.left/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
+    <state width="1294" height="282" key="GridCell.Tab.1.right" timestamp="1607555984561">
+      <screen x="30" y="23" width="1336" height="745" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598908432672" />
+    <state width="1294" height="282" key="GridCell.Tab.1.right/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607555984561" />
     <state x="848" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605542175220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="848" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605542175220" />
+    <state x="328" y="216" width="1294" height="707" key="dock-window-1" timestamp="1607532654407">
+      <screen x="30" y="23" width="1336" height="745" />
+    </state>
+    <state x="328" y="216" width="1294" height="707" key="dock-window-1/30.23.1336.745/1366.0.1360.768@30.23.1336.745" timestamp="1607532654407" />
     <state x="596" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1599327561057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="596" y="58" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1599327561057" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598635723823">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598635723823" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Database.cpp</url>
+          <line>204</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Database.cpp</url>
+          <line>647</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Database.cpp</url>
+          <line>708</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

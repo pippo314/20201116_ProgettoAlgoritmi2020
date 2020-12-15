@@ -1,11 +1,12 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <sstream>
 #include "Database.h"
-#include <ctime>
-#include <map>
 #include <algorithm>
+#include <ctime>
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <sstream>
+#include <string>
+#include <vector>
 
 using namespace std;
 map<string, vector<string>> mapQuery(vector<string> query, map<string, string> alias_map);
@@ -30,6 +31,7 @@ void Database::select(vector<string> query){
   int n_tables = query_map.at("FROM").size();
   vector<string>::iterator i;
   vector<int> fields_indexes;
+  vector<vector<string>> print_me;
 
   //checking if all the tables are in the database
   for (i = query_map.at("FROM").begin(); i != query_map.at("FROM").end(); ++i) {
@@ -74,17 +76,30 @@ void Database::select(vector<string> query){
   }
 */
 
+
   //aggiungo gli indici dei fields richiesti dalla select
   for (i = query_map.at("SELECT").begin(); i != query_map.at("SELECT").end(); ++i)
   {
     fields_indexes.push_back(t.get_field_index(*i));
   }
+  //TODO: print Fields first
+  for (int j = 0; j < fields_indexes.size(); ++j) {
+      int field_index = fields_indexes.at(j);
+      string field_name = t.fields.at(field_index).name;
+      if (alias_map.count(field_name) > 0) {
+          string tmp = alias_map.at(field_name); //variable to be printed
+          cout << setw(15) << tmp;
+      } else {
+          cout << setw(15) << field_name;
+      }
+  }
+
+  cout << endl;
 
   //per ogni riga che rispetta le condizioni della where stampo il record corrispondente al field
   // TODO: maybe call a function here like printTable
   for (size_t row = 0; row < where_lines.size(); row++)
   {
-
     if( (where_lines.at(row)) == true){
         //TODO: stampa dei valori a video
         for (int j = 0; j < fields_indexes.size(); ++j) {
@@ -92,9 +107,10 @@ void Database::select(vector<string> query){
             int col = fields_indexes.at(j);
             //next variable contains the record to be printed
             string record = t.records.at(row).at(col);
-            //TODO
+            cout << setw(15) << record;
         }
     }
+    cout << endl;
   }
   
 
@@ -140,11 +156,11 @@ map<string, vector<string>> mapQuery(vector<string> query, map<string, string> a
           from.push_back(*it);
           it++;
   }
-  while(it++ != order_it) {
+  while(it != order_it) {
           where.push_back(*it);
           it++;
   }
-  while(it++ != query.end()){
+  while(it != query.end()){
           order_by.push_back(*it);
           it++;
   }

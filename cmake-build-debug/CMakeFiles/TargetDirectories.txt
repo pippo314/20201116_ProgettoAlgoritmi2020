@@ -1,3 +1,3 @@
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/blang/Desktop/ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pasquale/Personal_Projects/20201116_ProgettoAlgoritmi2020/cmake-build-debug/CMakeFiles/ProgettoAlgoritmi2020.dir
